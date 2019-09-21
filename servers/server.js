@@ -36,7 +36,7 @@ router.get('/demo2-url/get', function(req, res) {
 })
 
 router.post('/demo2-url/post', function(req, res) {
-  res.json(`req.body:${JSON.stringify(req.body)}`)
+  res.json(`req.bodylala:${JSON.stringify(req.body)}`)
 })
 
 router.post('/demo2-url/buffer', function(req, res) {
