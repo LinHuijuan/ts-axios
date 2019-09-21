@@ -7,6 +7,7 @@ export interface AxiosRequestConfig {
   method?: Method
   data?: any
   params?: any
+  headers?: any
 }
 
 // 只能传入合法的字符串
