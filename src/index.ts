@@ -3,6 +3,7 @@ import { buildURL } from './helpers/url'
 import xhr from './xhr'
 
 function axios(config: AxiosRequestConfig): void {
+  processConfig(config)
   xhr(config)
 }
 

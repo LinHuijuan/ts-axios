@@ -31,6 +31,9 @@ router.get('/demo1/get', function(req, res) {
   })
 })
 
+router.get('/demo2-url/get', function(req, res) {
+  res.json(`req.query:${JSON.stringify(req.query)}`)
+})
 app.use(router)
 
 const port = process.env.PORT || 8080
