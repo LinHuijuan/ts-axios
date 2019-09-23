@@ -68,7 +68,7 @@ router.get('/error/timeout', function(req, res) {
     res.json({
       msg: `hello world`
     })
-  }, 3000)
+  }, 5000)
 })
 
 app.use(router)
